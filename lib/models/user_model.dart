@@ -1,6 +1,4 @@
-import 'package:flutter/foundation.dart';
-
-class User with ChangeNotifier, DiagnosticableTreeMixin {
+class User{
   int? id;
   String? name;
   String? username;

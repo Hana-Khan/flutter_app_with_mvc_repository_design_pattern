@@ -5,8 +5,7 @@ class Network{
 
   fetchtUsersData() async {
     return await http.get(
-        _url,
+      _url,
     );
   }
-
 }
